@@ -1,0 +1,277 @@
+CRITICAL - 2023-04-23 05:00:09 --> Invalid file: "libros/listar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/listar.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/listar', [], true)
+ 3 APPPATH\Controllers\Libros.php(14): view('libros/listar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:00:39 --> Invalid file: "libros/listar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/listar.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/listar', [], true)
+ 3 APPPATH\Controllers\Libros.php(14): view('libros/listar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:01:56 --> Invalid file: "libros/listar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/listar.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/listar', [], true)
+ 3 APPPATH\Controllers\Libros.php(14): view('libros/listar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:04:11 --> Invalid file: "libros/listar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros/listar.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('libros/listar', [], true)
+ 3 APPPATH\Controllers\Libros.php(14): view('libros/listar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:09:22 --> Function name must be a string
+in APPPATH\Controllers\Libros.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:09:34 --> Function name must be a string
+in APPPATH\Controllers\Libros.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('3')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:09:47 --> Function name must be a string
+in APPPATH\Controllers\Libros.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('3')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:11:49 --> Function name must be a string
+in APPPATH\Controllers\Libros.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('3')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:11:51 --> Function name must be a string
+in APPPATH\Controllers\Libros.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:13:14 --> unlink(../public/uploads/imagen.jpg): No such file or directory
+in APPPATH\Controllers\Libros.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/uploads/imagen.jpg): No such file or directory', 'C:\\xampp\\htdocs\\bibliotecaCI\\app\\Controllers\\Libros.php', 42, [...])
+ 2 APPPATH\Controllers\Libros.php(42): unlink('../public/uploads/imagen.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:13:27 --> unlink(../public/uploads/1682220530_907c5329b35fd3ad015f.jpg): No such file or directory
+in APPPATH\Controllers\Libros.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/uploads/1682220530_907c5329b35fd3ad015f.jpg): No such file or directory', 'C:\\xampp\\htdocs\\bibliotecaCI\\app\\Controllers\\Libros.php', 42, [...])
+ 2 APPPATH\Controllers\Libros.php(42): unlink('../public/uploads/1682220530_907c5329b35fd3ad015f.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('4')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:13:32 --> unlink(../public/uploads/1682220530_907c5329b35fd3ad015f.jpg): No such file or directory
+in APPPATH\Controllers\Libros.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/uploads/1682220530_907c5329b35fd3ad015f.jpg): No such file or directory', 'C:\\xampp\\htdocs\\bibliotecaCI\\app\\Controllers\\Libros.php', 42, [...])
+ 2 APPPATH\Controllers\Libros.php(42): unlink('../public/uploads/1682220530_907c5329b35fd3ad015f.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('4')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:14:34 --> unlink(../public/uploads/1682220530_907c5329b35fd3ad015f.jpg): No such file or directory
+in APPPATH\Controllers\Libros.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/uploads/1682220530_907c5329b35fd3ad015f.jpg): No such file or directory', 'C:\\xampp\\htdocs\\bibliotecaCI\\app\\Controllers\\Libros.php', 42, [...])
+ 2 APPPATH\Controllers\Libros.php(42): unlink('../public/uploads/1682220530_907c5329b35fd3ad015f.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('4')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:14:41 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::where(), 0 passed in C:\xampp\htdocs\bibliotecaCI\system\Model.php on line 840 and at least 1 expected
+in SYSTEMPATH\Database\BaseBuilder.php on line 696.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->where()
+ 2 APPPATH\Controllers\Libros.php(43): CodeIgniter\Model->__call('where', [])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('3')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:17:15 --> unlink(../public/uploads/imagen.jpg): No such file or directory
+in APPPATH\Controllers\Libros.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/uploads/imagen.jpg): No such file or directory', 'C:\\xampp\\htdocs\\bibliotecaCI\\app\\Controllers\\Libros.php', 42, [...])
+ 2 APPPATH\Controllers\Libros.php(42): unlink('../public/uploads/imagen.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 05:17:33 --> unlink(../public/uploads/1682220530_907c5329b35fd3ad015f.jpg): No such file or directory
+in APPPATH\Controllers\Libros.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/uploads/1682220530_907c5329b35fd3ad015f.jpg): No such file or directory', 'C:\\xampp\\htdocs\\bibliotecaCI\\app\\Controllers\\Libros.php', 42, [...])
+ 2 APPPATH\Controllers\Libros.php(42): unlink('../public/uploads/1682220530_907c5329b35fd3ad015f.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('4')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:16:32 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Libros.php(29): CodeIgniter\HTTP\Files\UploadedFile->move('../public/uploads/', '1682230592_269bfcae075f835fbc78')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:45:47 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Libros.php(29): CodeIgniter\HTTP\Files\UploadedFile->move('../public/uploads/', '1682232347_fea2eaf01c36b795cbbc')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:45:47 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Libros.php(29): CodeIgniter\HTTP\Files\UploadedFile->move('../public/uploads/', '1682232347_d3721568366d28af05cb')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:46:46 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Libros.php(29): CodeIgniter\HTTP\Files\UploadedFile->move('../public/uploads/', '1682232406_1ed5e6b53dd971e897eb')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:47:08 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Libros.php(29): CodeIgniter\HTTP\Files\UploadedFile->move('../public/uploads/', '1682232428_5aa8f765a1255149f14a')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:49:24 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Libros.php(29): CodeIgniter\HTTP\Files\UploadedFile->move('../public/uploads/', '1682232564_f0b8d28e38eb96b143b8')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:49:44 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Libros.php(29): CodeIgniter\HTTP\Files\UploadedFile->move('../public/uploads/', '1682232584_a509b498a7564d951781')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:49:58 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Libros.php(63): CodeIgniter\HTTP\Files\UploadedFile->move('../public/uploads/', '1682232598_5523dcadf7e72dcd8d13')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->actualizar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 06:51:22 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 391.
+ 1 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Libros.php(63): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->actualizar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 07:15:43 --> unlink(../public/uploads/): Is a directory
+in APPPATH\Controllers\Libros.php on line 78.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/uploads/): Is a directory', 'C:\\xampp\\htdocs\\bibliotecaCI\\app\\Controllers\\Libros.php', 78, [...])
+ 2 APPPATH\Controllers\Libros.php(78): unlink('../public/uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->actualizar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 16:23:36 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Libros.php(29): CodeIgniter\HTTP\Files\UploadedFile->move('../public/uploads/', '1682267016_52cdc84510ed9873059a')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 16:26:35 --> "required|min_lenght" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required|min_lenght')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('imagen', 'imagen', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Libros.php(28): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 16:27:07 --> "required|min_lenght" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required|min_lenght')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('imagen', 'imagen', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Libros.php(28): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 16:28:41 --> "required|min_lenght" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required|min_lenght')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('imagen', 'imagen', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Libros.php(28): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 16:28:59 --> "required|min_length" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required|min_length')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('imagen', 'imagen', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Libros.php(28): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 16:29:15 --> "required|min_length" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required|min_length')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('imagen', 'imagen', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Libros.php(28): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 17:53:58 --> unlink(../public/uploads/): Is a directory
+in APPPATH\Controllers\Libros.php on line 58.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/uploads/): Is a directory', 'C:\\xampp\\htdocs\\bibliotecaCI\\app\\Controllers\\Libros.php', 58, [...])
+ 2 APPPATH\Controllers\Libros.php(58): unlink('../public/uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('9')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 17:54:02 --> unlink(../public/uploads/): Is a directory
+in APPPATH\Controllers\Libros.php on line 58.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/uploads/): Is a directory', 'C:\\xampp\\htdocs\\bibliotecaCI\\app\\Controllers\\Libros.php', 58, [...])
+ 2 APPPATH\Controllers\Libros.php(58): unlink('../public/uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('10')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
