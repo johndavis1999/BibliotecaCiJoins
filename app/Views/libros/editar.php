@@ -11,6 +11,20 @@
                         <input id="nombre" class="form-control" type="text" name="nombre" value="<?=$libro['nombre']?>">
                     </div>
                     <div class="form-group mb-3">
+                        <label for="id_categoria">Categoria:</label>
+                        <select id="id_categoria" class="form-control" name="id_categoria" required>
+                            <option value="">Seleccione una categoria</option>
+                            <?php if($categorias):?>
+                                <?php foreach($categorias as $cat):?>
+                                    <option value="<?=$cat['id']?>" <?php if($cat['id'] == $libro['id_categoria']) echo 'selected'; ?>>
+                                        <?= $cat['descripcion'] ?>
+                                    </option>
+                                <?php endforeach; ?>
+                            <?php endif; ?>
+                        </select>
+                    </div>
+
+                    <div class="form-group mb-3">
                         <label for="imagen">Imagen:</label>
                         <br>
                         <img class="img-thumbnail" src="<?= base_url('/uploads/'.$libro['imagen']);?>" alt="portada_libro" width="100px">

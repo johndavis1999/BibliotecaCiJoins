@@ -6,18 +6,19 @@
     <thead class="thead-light">
         <tr>
             <th>#</th>
-            <th>Imagen</th>
             <th>Nombre</th>
+            <th>Categoria</th>
+            <th>Imagen</th>
             <th>Acciones</th>
         </tr>
     </thead>
-    <tbody>
     <tbody>
     <?php if($libros):?>
         <?php foreach($libros as $lib):?>
             <tr>
                 <td><?= $lib['id'];?></td>
                 <td><?= $lib['nombre'];?></td>
+                <td><?= $lib['categoria'];?></td>
                 <td><img class="img-thumbnail" src="<?= base_url('/uploads/'.$lib['imagen']);?>" alt="portada_libro" width="100px"></td>
                 <td>
                     <a href="<?=base_url('editar/'.$lib['id']);?>" class="btn btn-primary" type="button">Editar</a>

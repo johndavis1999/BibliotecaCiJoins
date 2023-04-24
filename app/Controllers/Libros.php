@@ -3,28 +3,34 @@ namespace App\Controllers;
 
 use CodeIgniter\Controller;
 use App\Models\Libro;
+use App\Models\Categoria;
 class Libros extends Controller{
 
     public function index()
     {
         $libro = new Libro();
-        $datos['libros'] = $libro->orderBy('id','ASC')->findAll();
+        $datos['libros'] = $libro->select('libros.*, categorias.descripcion as categoria')
+                        ->join('categorias', 'categorias.id = libros.id_categoria', 'left')
+                        ->orderBy('libros.id', 'ASC')
+                        ->findAll();
         $datos['cabecera'] = view('template/cabecera');
         $datos['pie'] = view('template/pie');
         return view('libros/listar',$datos);
     }
 
     public function crear(){
-
+        $categoria = new Categoria();
+        $datos['categorias'] = $categoria->orderBy('id','ASC')->findAll();
         $datos['cabecera'] = view('template/cabecera');
         $datos['pie'] = view('template/pie');
-        return view('libros/crear',$datos);
+        return view('libros/crear',$datos,$datos);
     }
 
     public function guardar(){
         $libro = new Libro();
         $validacion = $this->validate([
             'nombre'=>'required|min_length[3]',
+            'id_categoria' => 'required|numeric',
             'imagen' => [
                 'uploaded[imagen]',
                 'mime_in[imagen,image/jpg,image/jpeg,image/png]',
@@ -38,11 +44,14 @@ class Libros extends Controller{
             return redirect()->back()->withInput();
         }
         $nombre = $this->request->getVar('nombre');
+        $id_categoria = $this->request->getVar('id_categoria');
+        
         if($imagen=$this->request->getFile('imagen')){
             $nuevoNombre=$imagen->getRandomName();
             $imagen->move('../public/uploads/',$nuevoNombre);
             $datos=[
                 'nombre'=>$this->request->getVar('nombre'),
+                'id_categoria'=>$this->request->getVar('id_categoria'),
                 'imagen'=>$nuevoNombre
             ];
             $libro->insert($datos);
@@ -64,6 +73,8 @@ class Libros extends Controller{
     public function editar($id=null){
         $libro = new Libro();
         $datos['libro'] = $libro->where('id',$id)->first();
+        $categoria = new Categoria();
+        $datos['categorias'] = $categoria->orderBy('id','ASC')->findAll();
         $datos['cabecera'] = view('template/cabecera');
         $datos['pie'] = view('template/pie');
         return view('libros/editar',$datos);
@@ -72,10 +83,14 @@ class Libros extends Controller{
     public function actualizar(){
         $libro = new Libro();
         $datos=[
-            'nombre'=>$this->request->getVar('nombre')
+            'nombre'=>$this->request->getVar('nombre'),
+            'id_categoria'=>$this->request->getVar('id_categoria')
         ];
         $id = $this->request->getVar('id');
-        $validacion = $this->validate(['nombre'=>'required|min_length[3]']);
+        $validacion = $this->validate([
+            'nombre'=>'required|min_length[3]',
+            'id_categoria' => 'required|numeric'
+        ]);
         if(!$validacion){
             $session = session();
             $session->setFlashData('mensaje','Revise la información');

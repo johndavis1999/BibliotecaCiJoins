@@ -53,3 +53,7 @@ $routes->post('guardar', 'Libros::guardar');
 $routes->get('borrar/(:num)', 'Libros::borrar/$1');
 $routes->get('editar/(:num)', 'Libros::editar/$1');
 $routes->post('actualizar', 'Libros::actualizar');
+$routes->get('categorias', 'Categorias::index');
+$routes->post('guardarCat', 'Categorias::guardarCat');
+$routes->get('borrarCat/(:num)', 'Categorias::borrarCat/$1');
+$routes->post('actualizarCat', 'Categorias::actualizarCat');

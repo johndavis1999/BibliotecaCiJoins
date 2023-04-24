@@ -275,3 +275,71 @@ in APPPATH\Controllers\Libros.php on line 58.
  4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
  5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 18:54:22 --> Invalid file: "categorias/listar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categorias/listar.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('categorias/listar', [], true)
+ 3 APPPATH\Controllers\Categorias.php(11): view('categorias/listar')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Categorias->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 20:08:36 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Categorias.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 20:09:13 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Categorias.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 20:09:18 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Categorias.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 20:16:49 --> unlink(../public/uploads/): Is a directory
+in APPPATH\Controllers\Libros.php on line 58.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/uploads/): Is a directory', 'C:\\xampp\\htdocs\\bibliotecaCI\\app\\Controllers\\Libros.php', 58, [...])
+ 2 APPPATH\Controllers\Libros.php(58): unlink('../public/uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 20:53:01 --> unlink(../public/uploads/): Is a directory
+in APPPATH\Controllers\Libros.php on line 58.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/uploads/): Is a directory', 'C:\\xampp\\htdocs\\bibliotecaCI\\app\\Controllers\\Libros.php', 58, [...])
+ 2 APPPATH\Controllers\Libros.php(58): unlink('../public/uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 22:57:43 --> unlink(../public/uploads/): Is a directory
+in APPPATH\Controllers\Libros.php on line 58.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/uploads/): Is a directory', 'C:\\xampp\\htdocs\\bibliotecaCI\\app\\Controllers\\Libros.php', 58, [...])
+ 2 APPPATH\Controllers\Libros.php(58): unlink('../public/uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 23:10:19 --> unlink(../public/uploads/): Is a directory
+in APPPATH\Controllers\Libros.php on line 58.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/uploads/): Is a directory', 'C:\\xampp\\htdocs\\bibliotecaCI\\app\\Controllers\\Libros.php', 58, [...])
+ 2 APPPATH\Controllers\Libros.php(58): unlink('../public/uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-23 23:59:15 --> syntax error, unexpected ')', expecting ';' or ','
+in APPPATH\Views\categorias\listar.php on line 23.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('categorias/listar', [], true)
+ 3 APPPATH\Controllers\Categorias.php(14): view('categorias/listar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Categorias->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
