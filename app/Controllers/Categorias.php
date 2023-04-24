@@ -3,6 +3,7 @@ namespace App\Controllers;
 
 use CodeIgniter\Controller;
 use App\Models\Categoria;
+use App\Models\Libro;
 class Categorias extends Controller{
 
     public function index()
@@ -30,12 +31,23 @@ class Categorias extends Controller{
         return $this->response->redirect(site_url('/categorias'));
     }
     
-    public function borrarCat($id=null){
+    public function borrarCat($id = null) {
+        // Validar si hay libros asociados a la categoría que se quiere eliminar
+        $libros = new Libro();
+        $libros_categoria = $libros->where('id_categoria', $id)->findAll();
+        if (!empty($libros_categoria)) {
+            // Si existen libros asociados, no se puede eliminar la categoría
+            $session = session();
+            $session->setFlashData('mensaje', 'No se puede eliminar la categoría porque hay libros asociados a ella.');
+            return $this->response->redirect(site_url('/categorias'));
+        }
+        // Si no existen libros asociados, se puede eliminar la categoría
         $categoria = new Categoria();
-        $datos=$categoria->where('id',$id)->first();
-        $categoria->where('id',$id)->delete($id);
+        $datos = $categoria->where('id', $id)->first();
+        $categoria->where('id', $id)->delete($id);
         return $this->response->redirect(site_url('/categorias'));
     }
+    
 
     public function actualizarCat($id=null){
         $categoria = new Categoria();
