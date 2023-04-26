@@ -23,7 +23,32 @@
                             <?php endif; ?>
                         </select>
                     </div>
-
+                    <div class="form-group mb-3">
+                        <label for="id_autor">Autor:</label>
+                        <select id="id_autor" class="form-control" name="id_autor" required>
+                            <option value="">Seleccione al autor</option>
+                            <?php if($autores):?>
+                                <?php foreach($autores as $autor):?>
+                                    <option value="<?=$autor['id']?>" <?php if($autor['id'] == $libro['id_autor']) echo 'selected'; ?>>
+                                        <?= $autor['nombres'] ?>
+                                    </option>
+                                <?php endforeach; ?>
+                            <?php endif; ?>
+                        </select>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="id_editorial">Editorial:</label>
+                        <select id="id_editorial" class="form-control" name="id_editorial" required>
+                            <option value="">Seleccione la editorial</option>
+                            <?php if($editoriales):?>
+                                <?php foreach($editoriales as $editorial):?>
+                                    <option value="<?=$editorial['id']?>" <?php if($editorial['id'] == $libro['id_editorial']) echo 'selected'; ?>>
+                                        <?= $editorial['nombre'] ?>
+                                    </option>
+                                <?php endforeach; ?>
+                            <?php endif; ?>
+                        </select>
+                    </div>
                     <div class="form-group mb-3">
                         <label for="imagen">Imagen:</label>
                         <br>

@@ -1,0 +1,24 @@
+CRITICAL - 2023-04-26 16:51:04 --> unlink(../public/uploads/): Is a directory
+in APPPATH\Controllers\Libros.php on line 81.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/uploads/): Is a directory', 'C:\\xampp\\htdocs\\bibliotecaCI\\app\\Controllers\\Libros.php', 81, [...])
+ 2 APPPATH\Controllers\Libros.php(81): unlink('../public/uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('48')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 16:51:23 --> unlink(../public/uploads/): Is a directory
+in APPPATH\Controllers\Libros.php on line 81.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/uploads/): Is a directory', 'C:\\xampp\\htdocs\\bibliotecaCI\\app\\Controllers\\Libros.php', 81, [...])
+ 2 APPPATH\Controllers\Libros.php(81): unlink('../public/uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('50')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 16:51:32 --> unlink(../public/uploads/): Is a directory
+in APPPATH\Controllers\Libros.php on line 81.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/uploads/): Is a directory', 'C:\\xampp\\htdocs\\bibliotecaCI\\app\\Controllers\\Libros.php', 81, [...])
+ 2 APPPATH\Controllers\Libros.php(81): unlink('../public/uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('52')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

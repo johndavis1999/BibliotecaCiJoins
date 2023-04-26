@@ -40,14 +40,14 @@ class Categorias extends Controller{
             $session = session();
             $session->setFlashData('mensaje', 'No se puede eliminar la categoría porque hay libros asociados a ella.');
             return $this->response->redirect(site_url('/categorias'));
+        } else {
+            // Si no existen libros asociados, se puede eliminar la categoría
+            $categoria = new Categoria();
+            $datos = $categoria->where('id', $id)->first();
+            $categoria->where('id', $id)->delete($id);
+            return $this->response->redirect(site_url('/categorias'));
         }
-        // Si no existen libros asociados, se puede eliminar la categoría
-        $categoria = new Categoria();
-        $datos = $categoria->where('id', $id)->first();
-        $categoria->where('id', $id)->delete($id);
-        return $this->response->redirect(site_url('/categorias'));
     }
-    
 
     public function actualizarCat($id=null){
         $categoria = new Categoria();
@@ -56,13 +56,11 @@ class Categorias extends Controller{
         $validacion = $this->validate(['descripcion'=>'required|min_length[3]']);
         if(!$validacion){
             $session = session();
-            $session->setFlashData('descripcion','Revise la información');
+            $session->setFlashData('mensaje','Revise la información');
             return redirect()->back()->withInput();
         } else {
             $categoria->update($id,$datos);
             return $this->response->redirect(site_url('/categorias'));
         }
-        
     }
-
 }

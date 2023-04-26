@@ -21,12 +21,12 @@
                 <td>
                     <div class="dropdown">
                         <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Opciones
+                            <i class="fas fa-list"></i> Opciones
                         </a>
 
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editModal<?=$cat['id']?>">Editar</a></li>
-                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#deleteModal<?=$cat['id']?>">Borrar</a></li>
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#editModal<?=$cat['id']?>"><i class="fas fa-edit"></i> Editar</a></li>
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#deleteModal<?=$cat['id']?>"><i class="fas fa-trash-alt"></i> Borrar</a></li>
                         </ul>
                     </div>
                 </td>

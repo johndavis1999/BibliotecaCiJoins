@@ -7,6 +7,8 @@
         <tr>
             <th>#</th>
             <th>Nombre</th>
+            <th>Autor</th>
+            <th>Editorial</th>
             <th>Categoria</th>
             <th>Imagen</th>
             <th>Acciones</th>
@@ -18,6 +20,8 @@
             <tr>
                 <td><?= $lib['id'];?></td>
                 <td><?= $lib['nombre'];?></td>
+                <td><?= $lib['autor'];?></td>
+                <td><?= $lib['editorial'];?></td>
                 <td><?= $lib['categoria'];?></td>
                 <td><img class="img-thumbnail" src="<?= base_url('/uploads/'.$lib['imagen']);?>" alt="portada_libro" width="100px"></td>
                 <td>
